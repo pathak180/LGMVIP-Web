@@ -52,6 +52,7 @@ function showTasks(){
   inputBox.value = ""; //once task added leave the input field blank
 }
 
+//complete task
 listlength = document.querySelectorAll("li").length;
 
 for(var i = 0; i<listlength; ++i){

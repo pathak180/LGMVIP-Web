@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="index.css">
+   
+</head>
+    <body>
+        <section class="registration-form">
+            <nav class="navbar">
+                <h1>REGISTRATION FORM</h1>
+            </nav>
+            <hr class="horizontal-rule">
+            <section class="main-section">
+                <table>
+                    <tr>
+                        <td>
+                        <div class="form-area">
+                                <form>
+                                    <table cellspacing="30">
+                                        <tr>
+                                            <td><label class="label-style">Name</label></td>
+                                            <td><input class="input-style" id="name" type="text" value=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label class="label-style">Email</label></td>
+                                            <td><input class="input-style" id="email" type="email" value=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label class="label-style">Website</label></td>
+                                            <td><input class="input-style" id="url" type="url" value=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label class="label-style">Image link</label></td>
+                                            <td><input class="input-style" id="image" type="url" value=""></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label class="label-style">Gender</label></td>
+                                            <td><select class="input-style" name="gender" id="gender">
+                                                <option value="Select">Select</option>
+                                                <option value="Male">Male</option>
+                                                <option value="Female">Female</option>
+                                                <option value="Other">Other</option>
+                                            </select></td>
+                                        </tr>
+                                        <tr>
+                                            <td><label class="label-style">Skills</label></td>
+                                            <td><input class="input-style" type="text" id="skills" value="">  
+                                            </td>
+                                        </tr>
+                                        <tr align="center">
+                                            <td><input class="form-button" type="reset" value="Reset"></td>
+                                            <td><input class="submit form-button" type="button" id="btn" value="Enroll Student"></td>
+                                        </tr>
+                                    </table>
+                                </form>
+                        </div>
+                        </td>
+                        <td>
+                                <div class="list-area">
+                                    <table class="output enroll-list">
+                                        <tr align="left">
+                                            <th>Description</th>
+                                            <th>Image</th>
+                                        </tr>
+                                        
+                                    </table>
+                                </div>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+        </section>
+        <script src="index.js"></script>
+    </body>
+</html>

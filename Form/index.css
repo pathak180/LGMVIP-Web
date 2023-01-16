@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+}
+body{
+    margin: 20px 20px;
+    align-items: center;
+    justify-content: center;
+    background: url(./background.jpg) no-repeat center / cover;
+}
+.registration-form{
+    min-height: 690px;
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+.navbar h1{
+    padding: 20px;
+    font-size: 50px;
+    color: #3F3429;
+}
+.main-section{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.form-area{
+    height: auto;
+    align-items: center;
+    justify-items: center;
+    padding-right: 150px;
+    margin-top: -50px;
+    
+}
+.list-area{
+    min-height: 500px;
+    align-items: center;
+    justify-items: center;
+    border-left: 3px solid black;
+    padding-left: 100px;
+    padding-top: 25px;
+    margin-top: 20px;
+}
+.label-style{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.input-style{
+    background: black;
+    border: 0;
+    color: white;
+    padding: 2px;
+    width: 170px;
+    opacity: 0.5;
+}
+.select-input-style{
+    border-style: 0.2px solid black;
+    color: grey;
+    padding: 2px;
+    width: 100px;
+}
+.input-style:hover{
+    border-style: 1px solid black;
+}
+.form-button{
+    padding: 5px 5px;
+    font-size: 13px;
+    border-radius: 5px;
+    border-style: groove;
+}
+.horizontal-rule{
+    height: 5px;
+    background: red;
+    width: 95%;
+    border: 0;
+    margin-top: -20px;
+}
+.enroll-list{
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+.enroll-list th{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-weight: 800;
+    font-size: 17px;
+    opacity: 0.5;
+}
+.enroll-list tr .desc-area{
+    padding-left: 10px;
+    padding-right: 50px;
+    border: 1px solid black;
+    text-align: left;
+    font-weight: 800;
+    font-size: 16px;
+}
+.image-area{
+    padding: 10px;
+    border: 1px solid black;
+}
+.enroll-list tr .image-area .image-size{
+    width: 100px;
+    border-radius: 5px;
+}
+
